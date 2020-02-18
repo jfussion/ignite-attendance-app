@@ -8,16 +8,16 @@ Ignite QR Attendance Mobile App is used to track attendance efficiently and accu
 - Uses mobile phone's camera for QR scanning.
 
 # Technology Used
-## Flutter/Dart
+### Flutter/Dart
 Flutter is a mobile UI toolkit for fast mobile development with native performance on both iOS and Android. I've used a QR scanner package for scanning using the phone's camera.
 
-## Firestore
+### Firestore
 Firestore is a NoSql database I use for app's backend. It stores the attendee's info and attendance for each event.
 
-## Algolia
+### Algolia
 Algolia is a search engine added in the app in case the attendees failed to bring their QR code ID.
 
-## Google Cloud Functions
+### Google Cloud Functions
 - written in Go.
 - Responsible in filling the attendance document with the info from people's collection. 
 - Sending newly created data in people collection to algolia.
